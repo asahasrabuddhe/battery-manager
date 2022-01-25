@@ -21,6 +21,7 @@
 		D0D057EB279FD67A002F8248 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D057BD279FD679002F8248 /* Persistence.swift */; };
 		D0D057EC279FD67A002F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D057BE279FD67A002F8248 /* Assets.xcassets */; };
 		D0D057ED279FD67A002F8248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D057BE279FD67A002F8248 /* Assets.xcassets */; };
+		D0D057FE279FDC90002F8248 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D057FD279FDC90002F8248 /* StatusBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		D0D057DC279FD67A002F8248 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D057E0279FD67A002F8248 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D0D057E2279FD67A002F8248 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		D0D057FC279FDC30002F8248 /* BatteryManager--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BatteryManager--iOS--Info.plist"; sourceTree = "<group>"; };
+		D0D057FD279FDC90002F8248 /* StatusBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,7 @@
 		D0D057B3279FD679002F8248 = {
 			isa = PBXGroup;
 			children = (
+				D0D057FC279FDC30002F8248 /* BatteryManager--iOS--Info.plist */,
 				D0D057B8279FD679002F8248 /* Shared */,
 				D0D057CA279FD67A002F8248 /* macOS */,
 				D0D057D3279FD67A002F8248 /* Tests iOS */,
@@ -103,6 +107,7 @@
 		D0D057B8279FD679002F8248 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D0D057FD279FDC90002F8248 /* StatusBarController.swift */,
 				D0D057BB279FD679002F8248 /* BatteryManagerApp.swift */,
 				D0D057BC279FD679002F8248 /* ContentView.swift */,
 				D0D057BD279FD679002F8248 /* Persistence.swift */,
@@ -321,6 +326,7 @@
 				D0D057E5279FD67A002F8248 /* BatteryManager.xcdatamodeld in Sources */,
 				D0D057EB279FD67A002F8248 /* Persistence.swift in Sources */,
 				D0D057E7279FD67A002F8248 /* BatteryManagerApp.swift in Sources */,
+				D0D057FE279FDC90002F8248 /* StatusBarController.swift in Sources */,
 				D0D057E9279FD67A002F8248 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +486,7 @@
 				DEVELOPMENT_TEAM = 347L296WHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BatteryManager--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -510,6 +517,7 @@
 				DEVELOPMENT_TEAM = 347L296WHS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BatteryManager--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
